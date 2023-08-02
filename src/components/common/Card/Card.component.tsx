@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Card.css'
 
 const Card: React.FunctionComponent<any> = (props) => {
-    debugger
     const [selected, setSelected] = useState(!!props.accountType === props.currentData.accountType)
     const onClick = () => {
         setSelected(true)

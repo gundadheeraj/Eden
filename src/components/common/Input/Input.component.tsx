@@ -7,7 +7,7 @@ const Input: React.FunctionComponent<any> = (props) => {
     }
     return <div className='inputStyles'>
         <span>{props.label}</span>
-        <input name={props.id} type={props.type} placeholder={props.placeholder} onChange={(evt)=>onChange(evt)} value={props.currentData[props.id] || props.data[props.id] || ''}/>
+        {props.hint ? <div className='hint'><div>{props.hint}</div><input name={props.id} type={props.type} placeholder={props.placeholder} onChange={(evt)=>onChange(evt)} value={props.currentData[props.id] || props.data[props.id] || ''}/></div> : <input name={props.id} type={props.type} placeholder={props.placeholder} onChange={(evt)=>onChange(evt)} value={props.currentData[props.id] || props.data[props.id] || ''}/>}
     </div>
 }
 

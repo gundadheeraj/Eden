@@ -23,7 +23,7 @@ const Form: React.FunctionComponent<{currentPage: number, setCurrentPage: React.
     }
     return <div className='formStyles'>
             {formData?.completeIcon ? <div className='center'><img src={formData.completeIcon} /></div> : null}
-            {formData?.title ? <h2>{formData.title}</h2> : null}
+            {formData?.title ? <h2>{formData.title.replace('-name-', formInputData.dName)}</h2> : null}
             {formData?.subTitle ? <p>{formData.subTitle}</p> : null}
             <div className='fieldStyles'>
                 {formData?.fields.map((ele,index) => <ele.component {...ele.children} key={index} onChange={setCurrentFormData} currentData={currentFormData} data={formInputData}/>)}

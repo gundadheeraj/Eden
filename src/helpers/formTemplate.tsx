@@ -49,6 +49,7 @@ const formTemplate = [
             {
                 children: {
                     id: 'wURL',
+                    hint: 'www.eden.com/',
                     type: 'text',
                     label: 'Workspace URL',
                     placeholder: 'Example'
@@ -90,7 +91,7 @@ const formTemplate = [
     {
         page: 4,
         completeIcon: tick,
-        title: 'Congratulations, Eren!',
+        title: 'Congratulations, -name-!',
         subTitle: 'You have completed onboarding, you can start using Eden!',
         fields: [
         ],
