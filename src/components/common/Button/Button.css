@@ -1,0 +1,11 @@
+.buttonStyles {
+    max-width: 400px;
+    width: -webkit-fill-available;
+    height: 50px;
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    background-color: #5A4AD1;
+}

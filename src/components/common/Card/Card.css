@@ -1,0 +1,33 @@
+.cardStyles {
+    width: 136px;
+    padding: 20px;
+    display: flex;
+    border: 1px solid lightgrey;
+    height: 150px;
+    border-radius: 7px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    > img {
+        height: 30px;
+    }
+    > div {
+        margin: 15px 0px;
+    }
+    > div:first-of-type {
+        font-size: medium;
+    font-weight: 600;
+    color: #40434A;
+    }
+    > div:last-child {
+        margin-top: 0px;
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: 500;
+    text-align: start;
+    }
+}
+
+.sel {
+    border-color: #5A4AD1;
+}

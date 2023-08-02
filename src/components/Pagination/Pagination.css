@@ -1,0 +1,44 @@
+.circle {
+    border-radius: 50%;
+    display: grid;
+    width: 33px;
+    height: 33px;
+    padding: 5px;
+    opacity: 0.2;
+    align-items: center;
+    background: #fff;
+    border: 1px solid grey;
+    font-style: black;
+    text-align: center;
+    font: 18px Arial, sans-serif;
+  }
+
+  .inv {
+    opacity: 0 !important;
+  }
+
+  .cIcon{
+    display: flex;
+    width: 100%;
+    align-items: center
+  }
+  .hRule{
+    opacity: 0.2;
+    flex: 1;
+  }
+
+  .fill {
+    border: 0.1px solid #5A4AD1 !important;
+    background-color: #5A4AD1;
+    color: white;
+    opacity: 1;
+  }
+
+  .pageStyles {
+    display: flex;
+    margin: 50px 0px;
+
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-around;
+  }
